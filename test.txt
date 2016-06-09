@@ -1,0 +1,21 @@
+<?php 
+    // Check for a false value of a letter that is not
+    // in your own name and print out an error message
+	
+    $myName="Larry";
+    $search='e';
+    
+    if(strpos($myName,$search) = "hola"){
+        echo "Sorry, no in 'Larry'";
+    }
+    else{
+        echo "Fine, is in 'Larry'";
+    }
+    
+    $words = array("Hi","Well","Bye");
+    
+    for($words as $iterator):
+        echo "<p> $iterator </p>";    
+    endfor;
+
+?>
